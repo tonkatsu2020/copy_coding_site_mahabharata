@@ -1,0 +1,104 @@
+.single{
+  .section_ttl{
+    margin-bottom: 28.1px;
+  }
+  .single_content{
+    .single_ttlContainer{
+      background-color: #1a1a1a;
+      padding: 14px 30px 17.4px;
+      .single_time{
+        padding-bottom: 5px;
+        font-size: 12px;
+        line-height: 1.8;
+        color: #fff;
+      }
+      .single_ttl{
+        font-size: 26px;
+        line-height: 1.2;
+        color: #fff;
+      }
+    }
+    .single_textWrapper{
+      background-color: #fff;
+      padding: 30px 30px 25px;
+      h2{
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 1.18;
+        margin-bottom: 26px;
+      }
+      h3{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.44;
+        margin-bottom: 26px;
+      }
+      h4{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.44;
+        margin-bottom: 26px;
+      }
+      p{
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.62;
+        margin-bottom: 26px;
+      }
+    }
+  }
+  .more_single{
+    margin: 30px auto ;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 870px;
+    padding: 0 30px;
+    .more_single_content{
+      width: 385px;
+    }
+    .more_single_link{
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+    .more_single_arrow{
+      width: 33px;
+    }
+    .more_single_textContainer{
+      display: flex;
+      flex-direction: column;
+    }
+    .prev{
+      align-items: flex-start;
+      padding-left: 10px;
+    }
+    .next{
+      align-items: flex-end;
+      padding-right: 10px;
+      .more_single_text{
+        text-align: end;
+      }
+    }
+    .more_single_date{
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 21px;
+    }
+    .more_single_text{
+      font-size: 14px;
+      line-height: 21px;
+      font-weight: 600;
+    }
+
+    .more_single_content:hover{
+      .more_single_arrow,.more_single_date,.more_single_text{
+        opacity: 0.6;
+      }
+    }
+  }
+}
+
+.single_schedule{
+  margin-bottom: 60px;
+}

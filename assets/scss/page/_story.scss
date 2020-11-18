@@ -1,0 +1,119 @@
+.story_page_kv{
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-width: 870px;
+  padding: 58px 30px 62px;
+  .story_page_kv_wrapper{
+
+  }
+  .story_page_top_group{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 35.6px;
+    .story_page_ttl_content{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 460px;
+      .site_ttl{
+        padding-top: 9.7px;
+      }
+    }
+    .performance_date{
+      width: 250px;
+    }
+  }
+  @include common_btn(
+    $width:150px,
+    $height:40px,
+    $font-size:12px  
+  );
+  .story_page_kv_btn{
+    margin-left: auto;
+  }
+  .bread_crumb_items::after{
+    color: #fff;
+  }
+  .bread_crumb_link,.current-item{
+    color: #fff;
+  }
+  .section_ttl{
+    color: #fff;
+  }
+  .story_page_kv_text_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 31px;
+    .story_page_kv_subHeading{
+      width: 390px;
+      color: #fff;
+      font-size: 26px;
+      font-weight: 600;
+      text-align: center;
+    }
+    .story_page_kv_text{
+      width: 390px;
+      color: #fff;
+      font-size: 12px;
+      line-height: 1.8;
+    }
+  }
+}
+
+.story_page_content{
+  margin-bottom: 58px;
+  .story_page_text_wrapper{
+    width: 100%;
+    min-width: 870px;
+    padding: 60px 30px;
+    margin: 0 auto;
+    .story_page_block_text{
+      width: 390px;
+      color: #fff;
+      font-size: 12px;
+      line-height: 1.8;
+    }
+  }
+  .story_page_block:nth-of-type(even){
+    .story_page_block_text{
+      margin-left: auto;
+    }
+  }
+  .story_page_block:nth-of-type(1){
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-width: 870px;
+    height: 100%;
+    z-index: 10;
+  }
+  .story_page_block:nth-of-type(2){
+    background-image: url(../img/story_page_image03.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-width: 870px;
+    height: 100%;
+  }
+  .story_page_block:nth-of-type(3){
+    background-image: url(../img/story_page_image04.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-width: 870px;
+    height: 100%;
+  }
+}
+
+.story_schedule{
+  margin-bottom: 60px;
+}

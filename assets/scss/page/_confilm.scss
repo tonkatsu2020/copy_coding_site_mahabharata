@@ -1,0 +1,25 @@
+.confilm_page{
+  width: 870px;
+  padding: 0 30px;
+  margin: 0 auto 60px;
+  .section_ttl{
+    margin-bottom: 24px;
+  }
+  .confilm_container{
+    background-color: rgba(#fff, $alpha: 0.3);
+    padding: 30px 30px 40px;
+  }
+  .confilm_text{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+}
+
+.confilm_news{
+  margin-bottom: 62px;
+}
+
+.confilm_schedule{
+  margin-bottom: 60px;
+}

@@ -1,0 +1,51 @@
+.schedule_wrapper{
+  .schedule_content{
+    margin-bottom: 30px;
+    background-color: rgba(#fff, $alpha: 0.3);
+    padding: 30px 0 30px;
+    .section_ttl{
+      padding-bottom: 30px;
+    }
+    .schedule_list{
+      width: 100%;
+      max-width: 656px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .schedule_items{
+      display: flex;
+      margin-bottom: 25px;
+    }
+    .schedule_items:last-child{
+      padding-bottom: 0px;
+    }
+    .schedule_date{
+      font-size: 20px;
+      font-weight: 600;
+      margin-right: 25px;
+    }
+    .schedule_ticket_link{
+      font-size: 20px;
+      font-weight: 600;
+      border-bottom: 1px solid #333;
+    }
+  }
+  .schedule_btn_wrapper{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    margin: 0 auto;
+    @include common_btn(
+      $bg-color:$btn-color2,
+      $width:190px,
+      $border-color:$btn-color2,
+    );
+    .schedule_reservation_button{
+      margin-left: 30px;
+      background-color: #C63205;
+      border: #C63205;
+    }
+  }
+}

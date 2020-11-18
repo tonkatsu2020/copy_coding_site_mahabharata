@@ -1,0 +1,60 @@
+.section_inner{
+  position: relative;
+  .news_button{
+    position: absolute;
+    top: 15px;
+    right: 0;
+  }
+  @include common_btn(
+    $width:120px,
+    $height:40px
+  );
+  .news_list{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .news_list_items{
+      width: 250px;
+    }
+    .news_list_image{
+      width: 100%;
+      height: auto;
+    }
+    .news_text_wrapper{
+      background: #fff;
+      height: 120px;
+      padding: 15px;
+      .news_list_date{
+        color: #666;
+        font-size: 12px;
+        text-align: start;
+        line-height: 21px;
+      }
+      .news_list_ttl{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 21px;
+        text-align: start;
+        
+      }
+    }
+    .news_list_items:nth-child(n+4) {
+      width: 390px;
+      height: 88px;
+      margin-top: 30px;
+      .news_list_link{
+        display: flex;
+      }
+      .news_list_image{
+        width: 156px;
+        height: 100%;
+      }
+      .news_text_wrapper{
+        height: 88px;
+        padding: 14.6px 16.8px 13.5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.bread_crumbs{
+  margin: 30.5px auto 0;
+  display: flex;
+  .bread_crumb_items{
+    padding-left: 5px;
+  }
+  .bread_crumb_items::after{
+    content: ">";
+  }
+  .bread_crumb_items:last-child::after{
+    content: "";
+  }
+  .bread_crumb_items:first-child{
+    padding-left: 0px;
+  }
+  .bread_crumb_link,.current-item{
+    font-size: 12px;
+    font-weight: 600;
+  }
+}

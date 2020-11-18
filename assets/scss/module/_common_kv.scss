@@ -1,0 +1,42 @@
+.common_kv {
+  margin-bottom: 27.9px;
+  .kv_wrapper {
+    background-image: url(../img/heading_common_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-width: 870px;
+    padding: 58px 0 54px;
+  }
+  .kv_container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 870px;
+    padding: 0 30px;
+    margin: 0 auto;
+  }
+  .site_ttl {
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 9.7px;
+  }
+  .kv_performance_date {
+    width: 250px;
+  }
+  @include common_btn(
+    $bg-color:$btn-color1,
+    $width:150px,
+    $height:40px,
+    $font-size:12px
+  );
+  .kv_button {
+    position: absolute;
+    bottom: -74px;
+    right: 0;
+  }
+}

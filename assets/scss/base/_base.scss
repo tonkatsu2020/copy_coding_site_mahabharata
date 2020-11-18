@@ -1,0 +1,32 @@
+html {
+  // フォント
+  font-family:"Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ", "メイリオ", sans-serif;
+  color: $main-color2;
+
+  // 背景テクスチャー
+  background-image: url(../img/bg_texture.jpg);
+  background-repeat: repeat;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -5;
+}
+
+// 各セクションh1の共通スタイル
+.section_ttl{
+  font-family: source-han-sans-japanese, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #301F1B;
+  font-size: 43px;
+  text-align: center;
+
+}
+
+// 各セクションのインナー幅
+.section_inner{
+  width: 870px;
+  padding: 0px 30px;
+  margin: 0 auto;
+}

@@ -1,0 +1,91 @@
+.cast_page{
+  margin-bottom: 60px;
+  .section_ttl{
+    margin-bottom: 26px;
+  }
+  .main_cast{
+    margin-bottom: 60px;
+  }
+  .middle_cast{
+    margin-bottom: 26px;
+    .middle_cast_list{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .middle_cast_list_items{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding-bottom: 30px;
+      .middle_cast_image{
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+      }
+      .middle_cast_content{
+        width: 250px;
+        .middle_cast_role{
+          font-size: 17px;
+          font-weight: 300;
+          margin-bottom: 7px;
+        }
+        .middle_cast_name{
+          font-size: 26px;
+          font-weight: 600;
+          margin-bottom: 13px;
+        }
+        .middle_cast_hobby{
+          font-size: 12px;
+          font-weight: 300;
+          margin-bottom: 13px;
+  
+        }
+        .middle_cast_history{
+          font-size: 12px;
+          font-weight: 300;
+          line-height: 21px;
+        }
+      }
+    }
+  }
+  
+  .other_cast{
+    background: #fff;
+    width: 100%;
+    min-width: 870px;
+    .other_cast_list{
+      padding: 80px 30px 40px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .other_cast_items{
+      width: 250px;
+      padding-bottom: 30px;
+    }
+    .other_cast_role{
+      font-size: 17px;
+      color: #666666;
+      text-align: center;
+      padding-bottom: 7px;
+    }
+    .other_cast_name{
+      font-size: 23px;
+      font-weight: 600;
+      text-align: center;
+      padding-bottom: 14px;
+    }
+    .other_cast_hobby{
+      font-size: 12px;
+      text-align: center;
+      padding-bottom: 14px;
+    }
+  }
+}
+
+.cast_schedule{
+  margin-bottom: 60px;
+  width: 100%;
+  min-width: 870px;
+}

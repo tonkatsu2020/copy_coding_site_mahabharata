@@ -1,0 +1,17 @@
+footer{
+  width: 100%;
+  min-width: 870px;
+  padding: 0 30px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1A1A1A;
+  small{
+    display: block;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    color: #fff;
+  }
+}

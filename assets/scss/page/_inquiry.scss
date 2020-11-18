@@ -1,0 +1,54 @@
+.inquiry_page{
+  width:  870px;
+  padding: 0 30px;
+  margin: 0 auto 60px;
+  .section_ttl{
+    margin-bottom: 24px;
+  }
+  .contact_form_container{
+    background-color: rgba(#fff, $alpha: 0.3);
+    padding: 30px 30px 40px;
+  }
+  .contact_info{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 21px;
+  }
+  .form_item{
+    display: flex;
+    margin-bottom: 15px;
+    .form_label{
+      width: 275px;
+      margin-right: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .form_input_text{
+      width: 520px;
+      background-color: #fff;
+      padding: 10px;
+    }
+    .form_input_textarea{
+      width: 520px;
+      height: 165px;
+      background-color: #fff;
+      padding: 10px;
+      overflow: scroll;
+    }
+  }
+  .form_item:last-child{
+    margin-bottom: 30px;
+  }
+  @include common_btn();
+  .submit_button{
+    margin: 0 auto;
+  }
+}
+
+.inquiry_schedule{
+  margin-bottom: 60px;
+}

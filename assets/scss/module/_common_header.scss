@@ -1,0 +1,44 @@
+header{
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-image: url(../img/bg_texture.jpg);
+  background-repeat: repeat;
+  border: 1px solid #333;
+  width: 100%;
+  min-width: 870px;
+  padding: 0 30px;
+  height: 90px;
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0 auto;
+    .nav_item{
+      margin-right: 30.5px;
+      height: 100%;
+      .nav_link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+        font-weight:600;
+        height: 100%;
+        transition: opacity 0.3s;
+        span{
+          font-size: 12px;
+          padding-bottom: 6px;
+          font-weight: 600;
+        }
+      }
+      .nav_link:hover{
+        opacity: 0.6;
+      }
+    }
+    .nav_item:last-child{
+      margin-right: 0px;
+    }
+  }
+}

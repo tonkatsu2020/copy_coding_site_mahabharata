@@ -1,0 +1,24 @@
+@mixin common_btn(
+  $bg-color:$btn-color1,
+  $width:200px,
+  $height:60px,
+  $color:$btn-txt,
+  $border-color:$btn-color1,
+  $font-size:14px
+){
+  .common_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: $width;
+    height: $height;
+    background-color: $bg-color;
+    color: $color;
+    font-size: $font-size;
+    transition : opacity .3s;
+    border: 5px solid $border-color;
+  }
+  .common_button:hover{
+    opacity: 0.8;
+  }
+}
